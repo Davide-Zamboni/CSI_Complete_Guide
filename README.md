@@ -24,7 +24,7 @@ This is a complete guide for how to use RT-AC86U for generate and collect CSI da
 
 # Requirements
 - Linux / MacOS machine
-- Ubuntu Virtual Machine (Strongly Raccomended, I used  Xubuntu 16.04 LTS)
+- Ubuntu Virtual Machine (Strongly Recommended, I used  Xubuntu 16.04 LTS)
 - Two RT-AC86U routers
 - Docker
 
@@ -39,7 +39,7 @@ This is a complete guide for how to use RT-AC86U for generate and collect CSI da
 - Upload the RT-AC86U_386.10_0_cferom_ubi.w file
 - Enable SSH
 ### Easy Way
-This is an easy method to have all set up using precompiled files. If you have any problem is raccomended to proceed with the manual way.
+This is an easy method to have all set up using precompiled files. If you have any problem is recommended to proceed  the manual way.
 - Download and extract precompiled files from the Rx folder.
 - Copy the contents to the `/jffs/` partition of your router: `scp ./Rx/* admin@<routers-ip>:/jffs/`
 - Make `nexutil`, `makecsiparams`, and `tcpdump` executable: `ssh admin@<routers-ip> "/bin/chmod +x /jffs/nexutil /jffs/mcp /jffs/tcpdump "`
@@ -48,7 +48,7 @@ This is an easy method to have all set up using precompiled files. If you have a
 
 
 ### 1. Nexmon Installation
-1. Install dependences `udo apt-get install git gawk qpdf flex bison`
+1. Install dependencies `udo apt-get install git gawk qpdf flex bison`
 2. Only necessary for x86_64 systems, install i386 libs:
     ```
     sudo dpkg --add-architecture i386
@@ -145,7 +145,7 @@ RT-AC86U uses eth6 interface for 5 GHz, and eth5 for 2.4 GHz.
 - Upload the RT-AC86U_386.10_0_cferom_ubi.w file
 - Enable SSH
 ### Easy Way
-This is an easy method to have all set up using precompiled files. If you have any problem is raccomended to proceed with the manual way.
+This is an easy method to have all set up using precompiled files. If you have any problem is recommended to proceed the manual way.
 - Download and extract precompiled files from the Tx folder.
 - Copy the contents to the `/jffs/` partition of your router: `scp ./Tx/* admin@<routers-ip>:/jffs/`
 - Make `nexutil`, `tx_task.sh` executable: `ssh admin@<routers-ip> "/bin/chmod +x /jffs/nexutil /jffs/mcp /jffs/tcpdump "`
@@ -271,10 +271,10 @@ docker-compose up
 
 # Usage
 ## 1. Sender
-If you have followed the above instructions you should simply turn on the sender and it should start. You can change channel and bandwith in the `services-start` and `tx_task.sh` scripts.
-## 2. Reciever
+If you have followed the above instructions you should simply turn on the sender and it should start. You can change channel and bandwidth in the `services-start` and `tx_task.sh` scripts.
+## 2. Receiver
 ### CSI Clinent
-Follow the [ASUS_CSI_Client](https://github.com/Davide-Zamboni/ASUS_CSI_Client) guide to install and use the tool for the reciever.
+Follow the [ASUS_CSI_Client](https://github.com/Davide-Zamboni/ASUS_CSI_Client) guide to install and use the tool for the receiver.
 
 ### PCAP dump
 If you want to just have a dump of the packets in a pcap file on an external drive and extract the csi data.
@@ -297,7 +297,7 @@ Simply run `make` and then `./read_pcap <ip of your rabbitmqserver`.
 Make sure to have the server running,
 
 ## CSV Generator
-It generates a CSV file from a provided .pcap file with csi data (It may need some adjustments to work properly).
+It generates a CSV file from a provided .pcap file with csi data.
 ### Libraries
 - libpcap
 ### Usage
