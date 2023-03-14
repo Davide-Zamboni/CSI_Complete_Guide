@@ -3,7 +3,7 @@ This is a complete guide for how to use RT-AC86U for generate and collect CSI da
 # Table of Contents
 - [Requirements](#requirements)
 - [Setup](#setup)
-    - [Setting up the Reciever](#setting-up-the-reciever)
+    - [Setting up the Receiver](#setting-up-the-receiver)
         - [Asus Merlin-WRT installation and setup](#asus-merlin-wrt-installation-and-setup)
         - [Easy Way](#easy-way)
         - [Manual Way](#manual-way)
@@ -29,7 +29,7 @@ This is a complete guide for how to use RT-AC86U for generate and collect CSI da
 - Docker
 
 # Setup
-## Setting up the Reciever
+## Setting up the Receiver
 ### Asus Merlin-WRT installation and setup
 - Download the latest release from https://sourceforge.net/projects/asuswrt-merlin/files/RT-AC86U/Release/
 - I used [this](https://sourceforge.net/projects/asuswrt-merlin/files/RT-AC86U/Release/RT-AC86U_386.10_0.zip/download)
