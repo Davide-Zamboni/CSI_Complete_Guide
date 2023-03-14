@@ -1,5 +1,5 @@
 # CSI: a Complete Guide
-This is a complete guide for how to use RT-AC86U for generate and collect CSI data in real time.
+This is a complete guide for how to use RT-AC86U for generate and collect channel state information Wi-Fi data in real time.
 # Table of Contents
 - [Requirements](#requirements)
 - [Setup](#setup)
@@ -273,7 +273,7 @@ docker-compose up
 ## 1. Sender
 If you have followed the above instructions you should simply turn on the sender and it should start. You can change channel and bandwidth in the `services-start` and `tx_task.sh` scripts.
 ## 2. Receiver
-### CSI Clinent
+### CSI Client
 Follow the [ASUS_CSI_Client](https://github.com/Davide-Zamboni/ASUS_CSI_Client) guide to install and use the tool for the receiver.
 
 ### PCAP dump
