@@ -273,8 +273,8 @@ docker-compose up
 ## 1. Sender
 If you have followed the above instructions you should simply turn on the sender and it should start. You can change channel and bandwidth in the `services-start` and `tx_task.sh` scripts.
 ## 2. Receiver
-### CSI Client
-Follow the [ASUS_CSI_Client](https://github.com/Davide-Zamboni/ASUS_CSI_Client) guide to install and use the tool for the receiver.
+<!-- ### CSI Client
+Follow the [ASUS_CSI_Client](https://github.com/Davide-Zamboni/ASUS_CSI_Client) guide to install and use the tool for the receiver. -->
 
 ### PCAP dump
 If you want to just have a dump of the packets in a pcap file on an external drive and extract the csi data.
@@ -286,15 +286,15 @@ If you want to just have a dump of the packets in a pcap file on an external dri
 
 
 # Additional tools
-In the tools folder are provided two tools (It may need some adjustments to work properly):
-## RabbitMQ Local Client
+In the tools folder are provided different tools (They may need some adjustments to work properly):
+<!-- ## RabbitMQ Local Client
 A local client that connects to the RabbitMQ Server and reads packets from a provided .pcap file
 ### Libraries
 - libpcap
 - rabbitmq-c
 ### Usage
-Simply run `make` and then `./read_pcap <ip of your rabbitmqserver`.
-Make sure to have the server running,
+Simply run `make` and then `./read_pcap <ip of your rabbitmqserver`>.
+Make sure to have the server running, -->
 
 ## CSV Generator
 It generates a CSV file from a provided .pcap file with csi data.
