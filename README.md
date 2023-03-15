@@ -15,7 +15,7 @@ This is a complete guide for how to use RT-AC86U for generate and collect channe
         - [Manual Way](#manual-way-1)  
         - [Persistence](#persistence)
 
-    - [Setting up Docker](#setting-up-the-sender)
+    - [Setting up Docker](#setting-up-docker)
 
 - [Usage](#usage)
 - [Additional Tools](#additional-tools)
