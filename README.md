@@ -19,7 +19,6 @@ This is a complete guide for how to use RT-AC86U for generate and collect channe
 
 - [Usage](#usage)
 - [Additional Tools](#additional-tools)
-    - [RabbitMQ Local Client](#rabbitmq-local-client)
     - [CSV Generator](#csv-generator)
 
 # Requirements
