@@ -7,7 +7,7 @@ networks:
     driver: bridge
 services:
   rabbitmq:
-    image: 'rabbitmq:3.6-management-alpine'
+    image: 'rabbitmq:3.11.16-management-alpine'
     ports:
       # The standard AMQP protocol port
       - '5672:5672'
